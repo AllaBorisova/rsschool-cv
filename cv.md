@@ -27,3 +27,16 @@ function squareSum(numbers){
   }
   return summ;
 }
+
+## Expirience
+I have been working in web development for about 10 years. 
+At the moment I am a web developer of a small web studio. I am engaged in site layout and integration with cms.
+
+
+## Education
+* Orenburg State University, Faculty of Mathematics and Information Technologies, Applied Mathematics and Informatics
+* HTML Academy (simulators)
+* Udemy (web-developer 2019)
+
+## English
+ELEMENTARY (A1+,A2)
