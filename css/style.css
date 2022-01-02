@@ -4,5 +4,306 @@
  * 
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
- a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}[hidden]{display:none}body{line-height:1}menu,ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
- /*# sourceMappingURL=/sm/04f4d35563f7cf9516264fcbb6e11a85def2ae5616df66563711867fe05befec.map */
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+main,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+[hidden] {
+  display: none;
+}
+body {
+  line-height: 1;
+}
+menu,
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*# sourceMappingURL=/sm/04f4d35563f7cf9516264fcbb6e11a85def2ae5616df66563711867fe05befec.map */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #555555;
+  height: 100%;
+  font-size: 22px;
+  line-height: 1.6em;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1400px;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin: 0 auto;
+}
+.header {
+  
+  padding-bottom: 95px;
+  border-bottom:7px solid #ffcb00;
+}
+.header .header-container {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-gap: 120px;
+}
+.header-figure{
+  width: 260px;
+  height: 260px;
+}
+.header-img {
+  border-radius: 50%;
+}
+.header-title {
+  font-weight: 600;
+  font-size: 91px;
+  line-height: 96px;
+  color: #363636;
+  margin-bottom: 10px;
+}
+.header-subtitle {
+  font-size: 41px;
+}
+.nav {
+  background: #ffcb00;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 95px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-link {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  transition: .3s;
+}
+.nav-link:hover{
+	opacity: 0.6;
+}
+.main{
+	padding-top:95px;
+	padding-bottom:95px;
+}
+.main-container{
+	display:grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap:120px;
+}
+
+.info-title{
+	color:#363636;
+	font-size: 33px;
+	line-height: 1em;
+	margin-bottom:30px;
+	font-weight: 600;
+}
+.info-title-circle{
+	position:relative;
+}
+.info-title-circle:before{
+	content:'';
+	display:block;
+	width:60px;
+	height:60px;
+	background:#f2c100;
+	border-radius: 50%;
+	position:absolute;
+	top: -14px;
+    left: -24px;
+	z-index:-1;
+}
+.info-title:after{
+	content:'';
+	display:block;
+	margin-top:30px;
+	background:#f2c100;
+	width:130px;
+	height:3px;
+	
+}
+.main strong{
+	font-weight:500;
+	
+}
+.info{
+	margin-bottom:50px;
+}
+.info-item{
+	padding-left:20px;
+	position:relative;
+	margin-bottom:10px;
+}
+.info-item strong{
+	display:block;
+}
+.info-item a{
+	color:#555555;
+	transition: .3s;
+	text-decoration: none;
+}
+.info-item a:hover{
+	opacity: 0.7;
+}
+
+
+.info-item:before{
+	content:'';
+	display:block;
+	width:10px;
+	height:10px;
+	background:#f2c100;
+	position:absolute;
+	left:0px;
+	top:12px;
+}
+.footer{
+	padding-top:30px;
+	padding-bottom:30px;
+	border-top:7px solid #f2c100;
+}
+.footer a{
+	color:#555555;
+}
+.footer-container{
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+.rss-img{
+	width:100px;
+}
